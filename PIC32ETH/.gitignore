@@ -1,0 +1,9 @@
+# Altium files
+/**/History
+/**/__Previews
+/**/Project_Outputs/*.html
+/**/Project_Outputs/*.drc
+/**/Status Report.txt
+*.ERR
+*.LOG
+*.lnk
