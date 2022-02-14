@@ -56,23 +56,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=PIC32ETH_Main.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IQRINVUC
-
-[Document3]
 DocumentPath=PIC32ETH_Pic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BWQXXIUG
 
-[Document4]
+[Document3]
 DocumentPath=PIC32ETH_Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZEMYEWDJ
 
-[Document5]
+[Document4]
 DocumentPath=PIC32ETH_Usb.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TSLZNMUG
 
-[Document6]
+[Document5]
 DocumentPath=PIC32ETH_Peripheral.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,7 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AOWJVSMH
 
-[Document7]
+[Document6]
 DocumentPath=PIC32ETH_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -157,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UZCOICNL
 
-[Document8]
+[Document7]
 DocumentPath=PIC32ETH_Peripheral.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -174,7 +157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=PIC32ETH_Usb.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,7 +174,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=PIC32ETH_Ethernet.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -208,7 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=PIC32ETH_Pic.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -225,8 +208,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=PIC32ETH_Main.Harness
+[Document11]
+DocumentPath=PIC32ETH.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -242,7 +225,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=PIC32ETH.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -259,29 +242,46 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GXIHCVGM
 
+[Document13]
+DocumentPath=PIC32ETH.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Parameter1]
-Name=_SheetTotal
-Value=6
+Name=_Date
+Value=08.01.2022
 
 [Parameter2]
-Name=_Revision
-Value=v1.0.0
-
-[Parameter3]
-Name=_Project
-Value=PIC32ETH
-
-[Parameter4]
-Name=_DrawnBy
-Value=YS
-
-[Parameter5]
 Name=_DocumentNumber
 Value=n/a
 
+[Parameter3]
+Name=_DrawnBy
+Value=YS
+
+[Parameter4]
+Name=_Project
+Value=PIC32ETH
+
+[Parameter5]
+Name=_Revision
+Value=v1.0.0
+
 [Parameter6]
-Name=_Date
-Value=08.01.2022
+Name=_SheetTotal
+Value=6
 
 [Configuration1]
 Name=Sources
