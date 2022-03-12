@@ -294,28 +294,32 @@ GenerateClassCluster=0
 DocumentUniqueId=VJXQEHIA
 
 [Parameter1]
-Name=_Date
-Value=08.01.2022
+Name=_SheetTotal
+Value=6
 
 [Parameter2]
-Name=_DocumentNumber
-Value=n/a
-
-[Parameter3]
-Name=_DrawnBy
-Value=YS
-
-[Parameter4]
-Name=_Project
-Value=PIC32ETH
-
-[Parameter5]
 Name=_Revision
 Value=v1.0.0
 
+[Parameter3]
+Name=_Project
+Value=PIC32ETH
+
+[Parameter4]
+Name=_DrawnBy
+Value=YS
+
+[Parameter5]
+Name=_DocumentNumber
+Value=n/a
+
 [Parameter6]
-Name=_SheetTotal
-Value=6
+Name=_DatePcb
+Value=12.03.2022
+
+[Parameter7]
+Name=_Date
+Value=08.01.2022
 
 [Configuration1]
 Name=Sources
