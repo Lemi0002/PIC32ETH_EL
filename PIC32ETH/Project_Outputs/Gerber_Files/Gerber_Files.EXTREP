@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Gerber_Files.GBR   02/04/2022  23:41:03
+Gerber File Extension Report For: Gerber_Files.GBR   09/04/2022  21:52:29
 ------------------------------------------------------------------------------------------
 
 
@@ -29,8 +29,8 @@ Layer Extension     Layer Description
 .GM15               Top Courtyard                           
 .GM16               Bottom Courtyard                        
 .GKO                Keep-Out Layer                          
-.2                  Dielectric 2                            
 .1                  Dielectric 1                            
-.3                  Dielectric 3                            
 .GML                Multi-Layer                             
+.3                  Dielectric 3                            
+.2                  Dielectric 2                            
 ------------------------------------------------------------------------------------------

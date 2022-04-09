@@ -2,6 +2,157 @@
 FileName = Gerber_Files.GBR
 AutoAperture = True
 *************************************************************
+Generating : Bottom Paste
+      File : Gerber_Files.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Layer Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : Gerber_Files.GM11
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Gerber_Files.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Gerber_Files.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : Gerber_Files.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D114
+*************************************************************
+
+*************************************************************
+Generating : Layer Bottom
+      File : Gerber_Files.GBL
+
+    Adding Layer      : Layer Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D86
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : Gerber_Files.GM7
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : Gerber_Files.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 2
+      File : Gerber_Files.2
+
+    Adding Layer      : Dielectric 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : Gerber_Files.GM8
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Gerber_Files.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Layer Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+*************************************************************
+
+*************************************************************
 Generating : Top Overlay
       File : Gerber_Files.GTO
 
@@ -11,39 +162,6 @@ Generating : Top Overlay
 Used DCodes :
     D10
     D11
-*************************************************************
-
-*************************************************************
-Generating : Plane 2
-      File : Gerber_Files.GP2
-
-    Adding Layer      : Plane 2
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D100
-    D102
-    D103
-    D104
-    D105
-    D106
-    D108
-    D109
-    D110
-    D111
-    D112
-*************************************************************
-
-*************************************************************
-Generating : Top 3D Body
-      File : Gerber_Files.GM9
-
-    Adding Layer      : Top 3D Body
-
-
-Used DCodes :
 *************************************************************
 
 *************************************************************
@@ -71,6 +189,16 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Dielectric 1
+      File : Gerber_Files.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
 Generating : Bottom Courtyard
       File : Gerber_Files.GM16
 
@@ -78,6 +206,94 @@ Generating : Bottom Courtyard
 
 
 Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : Gerber_Files.GM12
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Layer Top
+      File : Gerber_Files.GTL
+
+    Adding Layer      : Layer Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+*************************************************************
+
+*************************************************************
+Generating : Plane 2
+      File : Gerber_Files.GP2
+
+    Adding Layer      : Plane 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D100
+    D102
+    D103
+    D104
+    D105
+    D106
+    D108
+    D109
+    D110
+    D111
+    D112
 *************************************************************
 
 *************************************************************
@@ -183,65 +399,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Assembly
-      File : Gerber_Files.GM11
+Generating : Bottom 3D Body
+      File : Gerber_Files.GM10
 
-    Adding Layer      : Top Assembly
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Board Outline
-      File : Gerber_Files.GM1
-
-    Adding Layer      : Board Outline
-
-
-Used DCodes :
-    D113
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : Gerber_Files.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Layer Bottom
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-*************************************************************
-
-*************************************************************
-Generating : Top Component Center
-      File : Gerber_Files.GM13
-
-    Adding Layer      : Top Component Center
-
-
-Used DCodes :
-    D89
-*************************************************************
-
-*************************************************************
-Generating : Bottom Designator
-      File : Gerber_Files.GM8
-
-    Adding Layer      : Bottom Designator
+    Adding Layer      : Bottom 3D Body
 
 
 Used DCodes :
@@ -258,24 +419,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Multi-Layer
-      File : Gerber_Files.GML
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-*************************************************************
-
-*************************************************************
 Generating : Dielectric 3
       File : Gerber_Files.3
 
@@ -286,38 +429,25 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : Gerber_Files.GBP
+Generating : Top Component Center
+      File : Gerber_Files.GM13
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Layer Bottom
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Component Center
 
 
 Used DCodes :
+    D89
 *************************************************************
 
 *************************************************************
-Generating : Dielectric 1
-      File : Gerber_Files.1
+Generating : Board Outline
+      File : Gerber_Files.GM1
 
-    Adding Layer      : Dielectric 1
+    Adding Layer      : Board Outline
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : Gerber_Files.GM15
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D114
+    D113
 *************************************************************
 
 *************************************************************
@@ -332,142 +462,12 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Keep-Out Layer
-      File : Gerber_Files.GKO
+Generating : Top 3D Body
+      File : Gerber_Files.GM9
 
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Gerber_Files.GBO
-
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top 3D Body
 
 
 Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Assembly
-      File : Gerber_Files.GM12
-
-    Adding Layer      : Bottom Assembly
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom 3D Body
-      File : Gerber_Files.GM10
-
-    Adding Layer      : Bottom 3D Body
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 2
-      File : Gerber_Files.2
-
-    Adding Layer      : Dielectric 2
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Layer Bottom
-      File : Gerber_Files.GBL
-
-    Adding Layer      : Layer Bottom
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D86
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-*************************************************************
-
-*************************************************************
-Generating : Top Designator
-      File : Gerber_Files.GM7
-
-    Adding Layer      : Top Designator
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Layer Top
-      File : Gerber_Files.GTL
-
-    Adding Layer      : Layer Top
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
 *************************************************************
 
