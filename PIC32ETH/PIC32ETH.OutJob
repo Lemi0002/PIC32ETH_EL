@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=PIC32ETH.OutJob
 Description=
-TargetOutputMedium=Folder Structure
+TargetOutputMedium=PDF
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother MFC-J4410DW Printer
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -38,7 +38,7 @@ OutputName1=Bill_Of_Materials
 OutputCategory1=Report
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=3
@@ -62,7 +62,7 @@ OutputName2=Bill_Of_Materials_Order
 OutputCategory2=Report
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=4
@@ -86,7 +86,7 @@ OutputName3=Gerber_Files
 OutputCategory3=Fabrication
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=1
@@ -99,7 +99,7 @@ OutputName4=NC_Drill_Files
 OutputCategory4=Fabrication
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=2
@@ -134,7 +134,7 @@ OutputName6=Export_STEP
 OutputCategory6=Export
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=5
@@ -147,7 +147,7 @@ OutputName7=PCB_Prints
 OutputCategory7=Documentation
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=1
 OutputEnabled7_OutputMedium3=0
@@ -188,7 +188,7 @@ OutputName8=Schematic_Prints
 OutputCategory8=Documentation
 OutputDocumentPath8=[Project Physical Documents]
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=2
 OutputEnabled8_OutputMedium3=0
@@ -214,7 +214,7 @@ OutputName10=Assembly_Drawings
 OutputCategory10=Assembly
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=0
+OutputEnabled10=1
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=3
 OutputEnabled10_OutputMedium3=0
@@ -226,19 +226,23 @@ Configuration10_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|Prin
 Configuration10_Name2=OutputConfigurationParameter2
 Configuration10_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top_Layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration10_Name3=OutputConfigurationParameter3
-Configuration10_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration10_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical7|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration10_Name4=OutputConfigurationParameter4
-Configuration10_Item4=CArc=Draft|CFill=Draft|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Draft|CText=Full|CTrack=Draft|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Full|FTrack=Hidden|FVia=Full|Layer=TopLayer|Polygon=Hidden|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration10_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration10_Name5=OutputConfigurationParameter5
-Configuration10_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration10_Item5=CArc=Draft|CFill=Draft|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Draft|CText=Full|CTrack=Draft|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Full|FTrack=Hidden|FVia=Full|Layer=TopLayer|Polygon=Hidden|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration10_Name6=OutputConfigurationParameter6
-Configuration10_Item6=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=True|Name=Bottom_Layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration10_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration10_Name7=OutputConfigurationParameter7
-Configuration10_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration10_Item7=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=True|Name=Bottom_Layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration10_Name8=OutputConfigurationParameter8
-Configuration10_Item8=CArc=Draft|CFill=Draft|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Draft|CText=Full|CTrack=Draft|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Full|FTrack=Hidden|FVia=Full|Layer=BottomLayer|Polygon=Hidden|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration10_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical8|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
 Configuration10_Name9=OutputConfigurationParameter9
-Configuration10_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration10_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration10_Name10=OutputConfigurationParameter10
+Configuration10_Item10=CArc=Draft|CFill=Draft|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Draft|CText=Full|CTrack=Draft|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Full|FTrack=Hidden|FVia=Full|Layer=BottomLayer|Polygon=Hidden|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration10_Name11=OutputConfigurationParameter11
+Configuration10_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
 PcbPrintPreferences10=
 
 [PublishSettings]
